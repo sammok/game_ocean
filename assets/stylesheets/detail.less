@@ -1,0 +1,101 @@
+//  Created by sam mok (Siso brand interactive team.) 2015
+
+.product-detail {
+  margin-top: 30px;
+  background: #fff;
+  padding: 15px;
+
+  .detail {
+    p {
+      font-size: 1.45em;
+      line-height: 1.7em;
+    }
+  }
+
+  .detail-name {
+    margin-bottom: 20px;
+  }
+
+  .detail-type {
+    span {
+      color: #0b97c4;
+      margin-left: 10px;
+      text-transform: uppercase;
+    }
+  }
+
+  .detail-gallery {
+    margin-top: 52px;
+  }
+}
+
+.product-comment {
+  margin-top: 20px;
+
+  h2 {
+    font-size: 1.35em;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  /* product comment */
+  .product-comment {
+
+  }
+
+  .product-comment-user {
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+    }
+  }
+
+  .product-comment-body {
+    .glyphicon {
+      margin-right: 5px;
+      color: #ff9900;
+    }
+  }
+
+  .product-comment-time {
+    span {
+      color: #666;
+    }
+  }
+}
+
+/** RESPONSIVE */
+@media screen and (max-width: 500px) {
+  .product-detail {
+    .product-comment-user {
+      img {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-detail {
+    .product-comment-time {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .product-detail {
+    .thumb img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .detail-gallery {
+      margin-top: 20px;
+    }
+  }
+}

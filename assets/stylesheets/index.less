@@ -1,16 +1,58 @@
 //  Created by sam mok (Siso brand interactive team.) 2015
 
-@import "base";
+/* scene */
+.scene-title {
+  margin: 30px 0 20px 0;
+  span {
+    font-weight: bolder;
+    display: inline-block;
+    border-bottom: 2px solid #ffcccc;
+  }
+}
 
-/*======================================================================
-      Index
-  ======================================================================*/
-
-
-/*======================================================================
-      Responsive
-  ======================================================================*/
-
-@media screen and (max-width: 1215px){
+/* scene new game */
+.scene-newgame {
 
 }
+
+/* product list */
+.product-list {
+
+}
+
+.product-list-item {
+  .thumbnail {
+    .thumb {
+      background: rgba(0, 0, 0, .05);
+    }
+
+    img {
+      width: 100%;
+      min-height: 175px;
+
+      transition: all .6s ease-out;
+    }
+
+  }
+
+  .name {
+    small {
+      margin-left: 5px;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .description {
+    min-height: 40px;
+  }
+}
+
+.product-list-item:hover {
+  .thumbnail {
+    box-shadow: 0 2px 10px #999;
+  }
+}
+
